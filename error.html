@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<title>EnFlight | Design</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="The Intersection of Photography, Web, and Design" />
+        <meta name="keywords" content="photography, web, design, graphic, photo, events, night, los angeles, travel, blog, writing, films, cinema, web design" />
+        <meta name="author" content="EnFlight Design" />
+        <link rel="shortcut icon" href="../favicon.ico">
+
+<!-- CSS --> 
+		<link rel="stylesheet" type="text/css" href="css/font_home.css" />
+        <link rel="stylesheet" type="text/css" href="css/style_home.css" />
+        <link rel="stylesheet" type="text/css" href="css/custom.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/gallery.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/navbar.css">
+<!-- 	<link rel="stylesheet" type="text/css" href="css/close.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/message_btn.css">
+	<link rel="stylesheet" type="text/css" href="css/enter.css">
+	<link rel="stylesheet" type="text/css" href="css/banner.css">
+	<link rel="stylesheet" type="text/css" href="css/social.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/message_overlay.css">
+	<link href="css/construction.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/flicker.css">
+
+<!-- Fonts -->
+
+<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+
+<!-- JavaScript -->
+
+	<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+		<noscript>
+			<link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />
+		</noscript>
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/navbar.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/flicker.js"></script>
+
+
+	<!--=================================Header Section=================================-->
+<header class="main_header active scroll">
+
+	<a href="#home_wrapper" class="logo to-top">
+		<img src="img/plane.png">
+	</a>
+
+	<button class="mobile_menu">
+		<img src="img/plane.png">
+	</button>
+</header>
+
+	<!--=================================NavBar Section=================================-->
+	<div class="menu-icon">
+  <span class="menu-item"></span>
+  <span class="menu-item"></span>
+  <span class="menu-item"></span>
+	</div>	
+
+	<div class="shownav" onmouseover="document.getElementById('navbar').className='navbar1'" onmousemove="document.getElementById('hidenav').className='hidenav1'">&nbsp;</div>
+
+	<div id="hidenav" class="hidenav0" onmouseover="document.getElementById('navbar').className='navbar0'" onmousemove="document.getElementById('hidenav').className='hidenav0'">&nbsp;</div>
+
+
+	<div id="navbar" class="navbar0"> <!-- navbar -->
+		<div class="navbar-inner">
+
+		<div class="logo">
+			<a class="scroll" href="#top"><img src="img/plane.png" title="EnFlight Design" alt="EnFlight Design"/></a>
+		</div>
+			<a class="nav-item two scroll" href="index.html">
+<!-- 				<img src="icons/png/about.png" alt=""/> -->
+				<p color="white">Home</p>
+			</a>	
+			<a class="nav-item two scroll" href="pages/about.html">
+<!-- 				<img src="icons/png/about.png" alt=""/> -->
+				<p color="white">About</p>
+			</a>	
+			<a class="nav-item-contact seven scroll" href="#contact">
+<!-- 				<img src="icons/png/blog.png" alt=""/> -->
+				<p color="white">Contact </p>				
+			</a>
+			<a class="nav-item four scroll" href="portfolio.html">
+<!-- 				<img src="icons/png/portfolio.png" alt=""/> -->
+				<p color="white">Portfolio</p>
+			</a>		
+			<a class="nav-item five scroll" href="construction.html">
+				<p color="white">Log</p>				
+			</a>
+			<a class="nav-item six scroll" href="#social">
+<!-- 				<img src="icons/png/blog.png" alt=""/> -->
+				<p color="white">Social</p>				
+			</a>
+		</div> <!-- end navbar-inner -->
+	</div> <!-- end navbar -->
+
+	<!--=================================Message Section=================================-->	
+
+<div onClick="showOverlay()" id="message_btn"><img src="icons/png/contact.png"></div>
+
+
+	<div class="overlay">
+               
+        <div onClick="hideOverlay()"class="alert-close">Close</div>
+
+<!-- 			<div class="contacts_wrapper">
+				<a href="tel:+442071936491" class="phone">
+					+44 (0)207 193 6491
+				</a>
+				<a href="mailto:hello@pollenlondon.com" class="email">
+					hello@enflightdesign.com
+				</a>
+			</div> -->
+
+		<!-- use to link to php file form action="contact.php" -->
+        <form action="contact/contact.php" method="post" class="form">  
+
+            <div class="form-group">
+              <input name="name" type="text" class="form-control" value="" placeholder="Name" id="contact-name" />
+            </div>
+            <div class="form-group">
+              <input name="email" type="email" class="form-control" value="" placeholder="Email" id="contact-email" />
+            </div>
+            <div class="form-group">
+              <input name="ef_phone" type="number" class="form-control" value="" placeholder="Phone Number" id="contact-email" />
+            </div>
+                
+            <div class="form-group">
+              <textarea name="message" class="form-control" value="" placeholder="Message" id="contact-message" rows="1"></textarea>
+            </div>
+
+        <div onClick="formSubmit()">
+            <button id="contact-send" input type="submit" value="submit" class="btn btn-primary btn-lg btn-block">Send</button>
+			</div>
+			</form>
+        </div>
+	</div>
+
+    </head>
+
+
+<div class="warning-content">
+
+<h2>Page Not Found</h2>
+</div>
+  <div id="flicker" class="on"><img src="img/plane.png"></div>
+
+<div class="warning-content">
+<p>
+  Please forgive the inconvenience. <br />
+  The page you are looking for does not exist.
+</p>
+</div>
+
+</div>
+

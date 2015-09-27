@@ -1,0 +1,23 @@
+.share-options {
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    left: 0;
+    background: #fff;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: visibility .15s,opacity .15s;
+    -moz-transition: visibility .15s,opacity .15s;
+    -o-transition: visibility .15s,opacity .15s;
+    transition: visibility .15s,opacity .15s;
+    z-index: 999999;
+}
+.share-options, .video-nav {
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    position: absolute;
+    list-style: none;
+}
+dl, h1, h2, h3, h4, h6, ol, p, ul {
+    margin: 0 0 25px;
+}

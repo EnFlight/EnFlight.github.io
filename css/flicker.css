@@ -1,0 +1,29 @@
+.on{
+  color: #dde5ee;
+  text-shadow: 12px 12px 12px rgba(0, 0, 0, 0.5),
+      0 0 20px #ffffff,
+      0 0 100px #1e54c9,
+      0 0 200px #194ab2,
+      0 0 500px #0a338b;
+  background-image: url(../img/plane.png);      
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+#flicker {
+  height: 80px;
+  width: 290px;
+  position: 50% 50%;
+}
+
+#flicker img {
+	opacity: .3;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
