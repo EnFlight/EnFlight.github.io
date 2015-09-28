@@ -64,9 +64,9 @@
 .nav-dots {
     text-align: right;
     position: fixed;
-    bottom: 5%;
+    bottom: 3%;
     height: 16px;
-    width: 132px;
+    width: 190px;
     right: 40px;
     z-index: 100;
 }

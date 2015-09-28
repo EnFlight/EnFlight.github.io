@@ -52,7 +52,7 @@ Main Components
     height: 180px;
   }
   .cd-header h1 {
-    line-height: 180px;
+    line-height: 245px;
   }
 }
 
@@ -139,7 +139,7 @@ xtab-filter
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: url("../img/cd-icon-arrow.svg") no-repeat center center;
+  background: url("../icons/cd-icon-arrow.svg") no-repeat center center;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
@@ -149,7 +149,7 @@ xtab-filter
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(280,280,280,.8);
+  background-color: rgba(280,280,280,.9);
   box-shadow: inset 0 -2px 0 #222;
 }
 .cd-tab-filter li {
@@ -187,7 +187,7 @@ xtab-filter
 }
 .cd-tab-filter.is-open .placeholder a {
   /* reduces the opacity of the placeholder on mobile when the menu is open */
-  opacity: .4;
+  opacity: 1;
 }
 @media only screen and (min-width: 768px) {
   .cd-tab-filter {
@@ -219,7 +219,7 @@ xtab-filter
     font-family: 'Poiret One', cursive;
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 3rem;
+    font-size: 3.7rem;
   }
   .no-touch .cd-tab-filter a:hover {
     color: #222;
@@ -409,7 +409,7 @@ xfilter
   text-indent: 100%;
   color: transparent;
   white-space: nowrap;
-  background: transparent url("../img/cd-icon-filter.svg") no-repeat center center;
+  background: transparent url("../icons/cd-icon-filter.svg") no-repeat center center;
   z-index: 3;
 }
 .cd-filter-trigger.filter-is-visible {
@@ -472,7 +472,7 @@ xcustom form elements
   top: 50%;
   width: 16px;
   height: 16px;
-  background: url("../img/cd-icon-arrow.svg") no-repeat center center;
+  background: url("../icons/cd-icon-arrow.svg") no-repeat center center;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -546,7 +546,7 @@ xcustom form elements
   display: block;
   width: 16px;
   height: 16px;
-  background: url("../img/cd-icon-arrow.svg") no-repeat center center;
+  background: url("../icons/cd-icon-arrow.svg") no-repeat center center;
   pointer-events: none;
 }
 .cd-filter-block select {
@@ -612,7 +612,7 @@ xcustom form elements
   /* check mark style for check boxes */
   width: 16px;
   height: 16px;
-  background: url("../img/cd-icon-check.svg") no-repeat center center;
+  background: url("../icons/cd-icon-check.svg") no-repeat center center;
 }
 .cd-filter-block .radio-label::before,
 .cd-filter-block .radio-label::after {

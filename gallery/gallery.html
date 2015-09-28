@@ -5,17 +5,6 @@
 
 
 <!-- Makes the images in portfolio jump -->
-<script>
-		window.pollenGlobals = {
-			rootUrl: 'http://pollenlondon.com',
-			templateUrl: 'http://pollenlondon.com/wp-content/themes/pollen',
-			ajaxUrl: 'http://pollenlondon.com/wp-admin/admin-ajax.php',
-			nonceID: 'ffba6de811',
-			tumblrUrl: 'vastmix.com',
-			tumblrApiKey: 'yLQQuAkOva5S1LKFuMLPPhrsqsFGnVNkV62MLDSLqvKgto9vNa'
-		};
-
-	</script>
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,7 +12,6 @@
 	<title>EnFlight Design</title>
 
 <!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="../css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="../css/navbar.css">
 	<link rel="stylesheet" type="text/css" href="../css/message_btn.css">
 	<link rel="stylesheet" type="text/css" href="../css/enter.css">
@@ -71,7 +59,7 @@
 <!--=================================Loader Section=================================-->
 
 
-<div id="loader-wrapper">
+<!-- <div id="loader-wrapper">
     <div id="loader"></div>
 
     <div class="loader-section section-full">
@@ -97,7 +85,7 @@
   </div>
     </div>
 
-</div>
+</div> -->
 
 
 	<!--=================================Header Section=================================-->
@@ -134,13 +122,13 @@
 <!-- 				<img src="icons/png/about.png" alt=""/> -->
 				<p color="white">Home</p>
 			</a>	
-			<a class="nav-item two scroll" href="about.html">
+			<a class="nav-item two scroll" href="../about.html">
 <!-- 				<img src="icons/png/about.png" alt=""/> -->
 				<p color="white">About</p>
 			</a>	
 			<a class="nav-item-contact seven scroll" href="#contact">
 <!-- 				<img src="icons/png/blog.png" alt=""/> -->
-				<p color="white">Contact </p>				
+				<p color="white">Contact</p>				
 			</a>
 			<a class="nav-item four scroll" href="index.html">
 <!-- 				<img src="icons/png/portfolio.png" alt=""/> -->
@@ -154,7 +142,7 @@
 
 	<!--=================================Message Section=================================-->	
 
-<div onClick="showOverlay()" id="message_btn"><img src="../icons/png/contact.png"></div>
+<a class="scroll" href="#contact"><div onClick="showOverlay()" id="message_btn"><img src="../icons/png/contact.png"></div></a>
 
 
 	<div class="overlay">
@@ -163,7 +151,7 @@
 
 
 		<!-- use to link to php file form action="contact.php" -->
-        <form action="contact/contact.php" method="post" class="form">  
+        <form action="../contact/contact.php" method="post" class="form">  
 
             <div class="form-group">
               <input name="name" type="text" class="form-control" value="" placeholder="Name" id="contact-name" />
@@ -202,6 +190,8 @@
 
     </head>
 
+<section id="contact"></section>
+
 <body>
 	<header class="cd-header">
 		<h1>Gallery</h1>
@@ -214,12 +204,13 @@
 					<li class="placeholder"> 
 						<a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
 					</li> 
-					<li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
-					<li class="filter" data-filter=".photoshoot"><a href="#0" data-type="photoshoot">Photoshoots</a></li>
-					<li class="filter" data-filter=".candid"><a href="#0" data-type="candid">Candid</a></li>
-					<li class="filter" data-filter=".places"><a href="#0" data-type="places">Places</a></li>
-					<li class="filter" data-filter=".web"><a href="#0" data-type="web">Web</a></li>
-					<li class="filter" data-filter=".graphic"><a href="#0" data-type="graphic">Graphic</a></li>
+					<li class="filter"><a class="selected" href="#all" data-type="all">All</a></li>
+					<li class="filter" data-filter=".photoshoot"><a href="#photoshoot" data-type="photoshoot">Photoshoots</a></li>
+					<li class="filter" data-filter=".events"><a href="#events" data-type="places">Events</a></li>
+					<li class="filter" data-filter=".places"><a href="#places" data-type="places">Places</a></li>
+					<li class="filter" data-filter=".candid"><a href="#candid" data-type="candid">Candid</a></li>	
+					<li class="filter" data-filter=".web"><a href="#web" data-type="web">Web</a></li>
+					<li class="filter" data-filter=".graphic"><a href="#graphic" data-type="graphic">Graphic</a></li>
 				</ul> <!-- cd-filters -->
 			</div> <!-- cd-tab-filter -->
 		</div> <!-- cd-tab-filter-wrapper -->
@@ -227,71 +218,97 @@
 		<section class="cd-gallery">
 			<ul>
 
+			<!-- All Featured section -->
+				<li class="mix photoshoot check1 radio2 option3"><a href="pages/-----.html"><img src="img/shoots/tina1.jpg" alt="Image 1"></a></li>
+				<li class="mix photoshoot check2 radio2 option2"><a href="pages/-----.html"><img src="img/shoots/rachel1.jpg" alt="Image 1"></a></li>
+				<li class="mix photoshoot check3 radio3 option1"><a href="pages/-----.html"><img src="img/shoots/adrianna1.jpg" alt="Image 1"></a></li>
+
 			<!-- photoshoot section -->
-				<li class="mix photoshoot check1 radio2 option3"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix photoshoot check2 radio2 option2"><a href="pages/-----.html"><img src="../home_images/2.jpg" alt="Image 1"></a></li>
-				<li class="mix photoshoot check3 radio3 option1"><a href="pages/-----.html"><img src="../home_images/3.jpg" alt="Image 1"></a></li>
-				<li class="mix photoshoot check3 radio2 option4"><a href="pages/-----.html"><img src="../home_images/4.jpg" alt="Image 1"></a></li>
-				<li class="mix photoshoot check1 radio3 option2"><a href="pages/-----.html"><img src="../home_images/5.jpg" alt="Image 1"></a></li>
-				<li class="mix photoshoot check2 radio3 option3"><a href="pages/-----.html"><img src="../home_images/6.jpg" alt="Image 1"></a></li>
-				<li class="mix photoshoot check2 radio2 option1"><a href="pages/-----.html"><img src="../home_images/7.jpg" alt="Image 1"></a></li>
-				<li class="mix photoshoot check1 radio3 option4"><a href="pages/-----.html"><img src="../home_images/8.jpg" alt="Image 1"></a></li>
-				<li class="mix photoshoot check1 radio2 option3"><a href="pages/-----.html"><img src="../home_images/12.jpg" alt="Image 1"></a></li>
-				<li class="mix photoshoot check3 radio2 option4"><a href="pages/-----.html"><img src="../home_images/14.jpg" alt="Image 1"></a></li>
-				<li class="mix photoshoot check3 radio3 option2"><a href="pages/-----.html"><img src="../home_images/15.jpg" alt="Image 1"></a></li>
-				<li class="mix photoshoot check1 radio3 option1"><a href="pages/-----.html"><img src="../home_images/16.jpg" alt="Image 1"></a></li>
-			<!-- Candid section -->
-				<li class="mix candid check1 radio2 option3"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix candid check2 radio2 option2"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix candid check3 radio3 option1"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix candid check3 radio2 option4"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix candid check1 radio3 option2"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix candid check2 radio3 option3"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix candid check2 radio2 option1"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix candid check1 radio3 option4"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix candid check1 radio2 option3"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix candid check3 radio2 option4"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix candid check3 radio3 option2"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix candid check1 radio3 option1"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
+				<li class="mix photoshoot check3 radio2 option4"><a href="pages/-----.html"><img src="img/shoots/kevin1.jpg" alt="Image 1"></a></li>
+				<li class="mix photoshoot check1 radio3 option2"><a href="pages/-----.html"><img src="img/shoots/erica1.jpg" alt="Image 1"></a></li>
+				<li class="mix photoshoot check2 radio3 option3"><a href="pages/-----.html"><img src="img/shoots/pema1.jpg" alt="Image 1"></a></li>
+				<li class="mix photoshoot check2 radio2 option1"><a href="pages/-----.html"><img src="img/shoots/victoria1.jpg" alt="Image 1"></a></li>
+				<li class="mix photoshoot check1 radio3 option4"><a href="pages/-----.html"><img src="img/shoots/justin1.jpg" alt="Image 1"></a></li>
+				<li class="mix photoshoot check1 radio2 option3"><a href="pages/-----.html"><img src="img/shoots/ish1.jpg" alt="Image 1"></a></li>
+				<li class="mix photoshoot check3 radio2 option4"><a href="pages/-----.html"><img src="img/shoots/kelly1.jpg" alt="Image 1"></a></li>
+				<li class="mix photoshoot check3 radio3 option2"><a href="pages/-----.html"><img src="img/shoots/julie1.jpg" alt="Image 1"></a></li>
+				<li class="mix photoshoot check1 radio3 option1"><a href="pages/-----.html"><img src="img/shoots/vivian1.jpg" alt="Image 1"></a></li>
+
+
+			<!-- Events section -->
+				<li class="mix events check1 radio2 option3"><a href="pages/-----.html"><img src="img/events/fyf1.jpg" alt="Image 1"></a></li>
+				<li class="mix events check2 radio3 option3"><a href="pages/-----.html"><img src="img/events/fyf2.jpg" alt="Image 1"></a></li>
+				<li class="mix events check3 radio3 option1"><a href="pages/-----.html"><img src="img/events/fyf3.jpg" alt="Image 1"></a></li>
+				<li class="mix events check2 radio2 option2"><a href="pages/-----.html"><img src="img/events/littleboots1.jpg" alt="Image 1"></a></li>
+				<li class="mix events check3 radio2 option4"><a href="pages/-----.html"><img src="img/events/purple1.jpg" alt="Image 1"></a></li>
+				<li class="mix events check1 radio3 option2"><a href="pages/-----.html"><img src="img/events/purple2.jpg" alt="Image 1"></a></li>
+
+				<li class="mix events check2 radio2 option1"><a href="pages/-----.html"><img src="img/events/sbcr1.jpg" alt="Image 1"></a></li>
+				<li class="mix events check1 radio3 option4"><a href="pages/-----.html"><img src="img/events/brokechella1.jpg" alt="Image 1"></a></li>
+				<li class="mix events check1 radio2 option3"><a href="pages/-----.html"><img src="img/events/echo1.jpg" alt="Image 1"></a></li>
+				<li class="mix events check3 radio2 option4"><a href="pages/-----.html"><img src="img/events/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix events check3 radio3 option2"><a href="pages/-----.html"><img src="img/events/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix events check1 radio3 option1"><a href="pages/-----.html"><img src="img/events/---.jpg1.jpg" alt="Image 1"></a></li>
+
+
+
 			<!-- Places section -->
-				<li class="mix places check1 radio2 option3"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix places check2 radio2 option2"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix places check3 radio3 option1"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix places check3 radio2 option4"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix places check1 radio3 option2"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix places check2 radio3 option3"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix places check2 radio2 option1"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix places check1 radio3 option4"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix places check1 radio2 option3"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix places check3 radio2 option4"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix places check3 radio3 option2"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix places check1 radio3 option1"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
+				<li class="mix places check1 radio2 option3"><a href="pages/-----.html"><img src="img/places/sm1.jpg" alt="Image 1"></a></li>
+				<li class="mix places check2 radio2 option2"><a href="pages/-----.html"><img src="img/places/chinatown1.jpg" alt="Image 1"></a></li>
+				<li class="mix places check3 radio3 option1"><a href="pages/-----.html"><img src="img/places/sm2.jpg" alt="Image 1"></a></li>
+				<li class="mix places check3 radio2 option4"><a href="pages/-----.html"><img src="img/places/hollywood1.jpg" alt="Image 1"></a></li>
+				<li class="mix places check1 radio3 option2"><a href="pages/-----.html"><img src="img/places/hollywood2.jpg" alt="Image 1"></a></li>
+				<li class="mix places check2 radio3 option3"><a href="pages/-----.html"><img src="img/places/hollywood3.jpg" alt="Image 1"></a></li>
+				<li class="mix places check2 radio2 option1"><a href="pages/-----.html"><img src="img/places/dtla1.jpg" alt="Image 1"></a></li>
+				<li class="mix places check1 radio3 option4"><a href="pages/-----.html"><img src="img/places/fyf1.jpg" alt="Image 1"></a></li>
+				<li class="mix places check1 radio2 option3"><a href="pages/-----.html"><img src="img/places/fyf2.jpg" alt="Image 1"></a></li>
+				<li class="mix places check3 radio2 option4"><a href="pages/-----.html"><img src="img/places/hard1.jpg" alt="Image 1"></a></li>
+				<li class="mix places check3 radio3 option2"><a href="pages/-----.html"><img src="img/places/sm4.jpg" alt="Image 1"></a></li>
+				<li class="mix places check1 radio3 option1"><a href="pages/-----.html"><img src="img/places/---.jpg1.jpg" alt="Image 1"></a></li>
+
+
+			<!-- Candid section -->
+				<li class="mix candid check1 radio2 option3"><a href="pages/-----.html"><img src="img/candid/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix candid check2 radio2 option2"><a href="pages/-----.html"><img src="img/candid/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix candid check3 radio3 option1"><a href="pages/-----.html"><img src="img/candid/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix candid check3 radio2 option4"><a href="pages/-----.html"><img src="img/candid/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix candid check1 radio3 option2"><a href="pages/-----.html"><img src="img/candid/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix candid check2 radio3 option3"><a href="pages/-----.html"><img src="img/candid/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix candid check2 radio2 option1"><a href="pages/-----.html"><img src="img/candid/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix candid check1 radio3 option4"><a href="pages/-----.html"><img src="img/candid/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix candid check1 radio2 option3"><a href="pages/-----.html"><img src="img/candid/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix candid check3 radio2 option4"><a href="pages/-----.html"><img src="img/candid/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix candid check3 radio3 option2"><a href="pages/-----.html"><img src="img/candid/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix candid check1 radio3 option1"><a href="pages/-----.html"><img src="img/candid/---.jpg1.jpg" alt="Image 1"></a></li>
+
+
 			<!-- Web section -->
-				<li class="mix web check1 radio2 option3"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix web check2 radio2 option2"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix web check3 radio3 option1"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix web check3 radio2 option4"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix web check1 radio3 option2"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix web check2 radio3 option3"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix web check2 radio2 option1"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix web check1 radio3 option4"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix web check1 radio2 option3"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix web check3 radio2 option4"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix web check3 radio3 option2"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix web check1 radio3 option1"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
+				<li class="mix web check1 radio2 option3"><a href="pages/-----.html"><img src="img/web/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix web check2 radio2 option2"><a href="pages/-----.html"><img src="img/web/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix web check3 radio3 option1"><a href="pages/-----.html"><img src="img/web/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix web check3 radio2 option4"><a href="pages/-----.html"><img src="img/web/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix web check1 radio3 option2"><a href="pages/-----.html"><img src="img/web/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix web check2 radio3 option3"><a href="pages/-----.html"><img src="img/web/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix web check2 radio2 option1"><a href="pages/-----.html"><img src="img/web/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix web check1 radio3 option4"><a href="pages/-----.html"><img src="img/web/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix web check1 radio2 option3"><a href="pages/-----.html"><img src="img/web/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix web check3 radio2 option4"><a href="pages/-----.html"><img src="img/web/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix web check3 radio3 option2"><a href="pages/-----.html"><img src="img/web/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix web check1 radio3 option1"><a href="pages/-----.html"><img src="img/web/---.jpg1.jpg" alt="Image 1"></a></li>
+
 			<!-- Graphic section -->
-				<li class="mix graphic check1 radio2 option3"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix graphic check2 radio2 option2"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix graphic check3 radio3 option1"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix graphic check3 radio2 option4"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix graphic check1 radio3 option2"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix graphic check2 radio3 option3"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix graphic check2 radio2 option1"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix graphic check1 radio3 option4"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix graphic check1 radio2 option3"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix graphic check3 radio2 option4"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix graphic check3 radio3 option2"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
-				<li class="mix graphic check1 radio3 option1"><a href="pages/-----.html"><img src="../home_images/1.jpg" alt="Image 1"></a></li>
+				<li class="mix graphic check1 radio2 option3"><a href="pages/-----.html"><img src="img/graphic/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix graphic check2 radio2 option2"><a href="pages/-----.html"><img src="img/graphic/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix graphic check3 radio3 option1"><a href="pages/-----.html"><img src="img/graphic/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix graphic check3 radio2 option4"><a href="pages/-----.html"><img src="img/graphic/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix graphic check1 radio3 option2"><a href="pages/-----.html"><img src="img/graphic/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix graphic check2 radio3 option3"><a href="pages/-----.html"><img src="img/graphic/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix graphic check2 radio2 option1"><a href="pages/-----.html"><img src="img/graphic/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix graphic check1 radio3 option4"><a href="pages/-----.html"><img src="img/graphic/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix graphic check1 radio2 option3"><a href="pages/-----.html"><img src="img/graphic/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix graphic check3 radio2 option4"><a href="pages/-----.html"><img src="img/graphic/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix graphic check3 radio3 option2"><a href="pages/-----.html"><img src="img/graphic/---.jpg1.jpg" alt="Image 1"></a></li>
+				<li class="mix graphic check1 radio3 option1"><a href="pages/-----.html"><img src="img/graphic/---.jpg1.jpg" alt="Image 1"></a></li>
 				<li class="gap"></li>
 				<li class="gap"></li>
 				<li class="gap"></li>
