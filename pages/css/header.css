@@ -17,7 +17,7 @@
 .header {
   background: #222;
     opacity: .8;
-    height: 10rem;
+    height: 15rem;
   -moz-transition: height 500ms ease-in-out, background 300ms ease-in-out 200ms;
   -o-transition: height 500ms ease-in-out, background 300ms ease-in-out 200ms;
   -webkit-transition: height 500ms ease-in-out, background 300ms ease-in-out;
