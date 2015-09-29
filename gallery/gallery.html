@@ -9,7 +9,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="The Intersection of Photography, Web &amp; Design.">
-	<title>EnFlight Design</title>
+	<title>EnFlight | Design</title>
 
 <!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="../css/navbar.css">
@@ -23,7 +23,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/down_button.css">
 	<link rel="stylesheet" type="text/css" href="../css/message_overlay.css">
 	<link rel="stylesheet" type="text/css" href="../css/fade_in.css">
-
+	<link rel="stylesheet" href="css/prettyphoto.css" type="text/css" media="screen" title="prettyphoto main stylesheet" charset="utf-8">
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 
@@ -44,6 +44,7 @@
     <script type="text/javascript" src="../js/scroll.js"></script>
     <script type="text/javascript" src="../js/filter.js"></script>
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<script src="js/jquery.prettyphoto.js" type="text/javascript" charset="utf-8"></script>
 	<!--Favicons-->
 	<link rel="shortcut icon" href="../icons/logo.ico">
 <!-- 	[if lt IE 9]> -->
@@ -130,7 +131,7 @@
 <!-- 				<img src="icons/png/blog.png" alt=""/> -->
 				<p color="white">Contact</p>				
 			</a>
-			<a class="nav-item four scroll" href="index.html">
+			<a class="nav-item four scroll" href="portfolio.html">
 <!-- 				<img src="icons/png/portfolio.png" alt=""/> -->
 				<p color="white">Portfolio</p>
 			</a>		
@@ -206,7 +207,7 @@
 					</li> 
 					<li class="filter"><a class="selected" href="#all" data-type="all">All</a></li>
 					<li class="filter" data-filter=".photoshoot"><a href="#photoshoot" data-type="photoshoot">Photoshoots</a></li>
-					<li class="filter" data-filter=".events"><a href="#events" data-type="places">Events</a></li>
+					<li class="filter" data-filter=".events"><a href="#events" data-type="events">Events</a></li>
 					<li class="filter" data-filter=".places"><a href="#places" data-type="places">Places</a></li>
 					<li class="filter" data-filter=".candid"><a href="#candid" data-type="candid">Candid</a></li>	
 					<li class="filter" data-filter=".web"><a href="#web" data-type="web">Web</a></li>
@@ -219,7 +220,10 @@
 			<ul>
 
 			<!-- All Featured section -->
-				<li class="mix photoshoot check1 radio2 option3"><a href="pages/-----.html"><img src="img/shoots/tina1.jpg" alt="Image 1"></a></li>
+				<li class="gallery clearfix mix photoshoot check1 radio2 option3"><a href="images/fullscreen/4.jpg" rel="prettyphoto[gallery2]" ><img src="images/thumbnails/t_4.jpg"/></a></li>
+
+				<li class="gallery clearfix mix photoshoot check1 radio2 option3"><a href="img/shoots/tina1.jpg" rel="prettyphoto[gallery2]"><img src="img/shoots/tina1.jpg" alt="Image 1"></a></li>
+
 				<li class="mix photoshoot check2 radio2 option2"><a href="pages/-----.html"><img src="img/shoots/rachel1.jpg" alt="Image 1"></a></li>
 				<li class="mix photoshoot check3 radio3 option1"><a href="pages/-----.html"><img src="img/shoots/adrianna1.jpg" alt="Image 1"></a></li>
 
@@ -315,8 +319,32 @@
 			</ul>
 
 	</main> <!-- cd-main-content -->
+	
 <script src="js/jquery-2.1.1.js"></script>
 <script src="js/jquery.mixitup.min.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+
+<!-- fancybox script -->
+			<script type="text/javascript" charset="utf-8">
+			$(document).ready(function(){
+				$("area[rel^='prettyphoto']").prettyphoto();
+				
+				$(".gallery:first a[rel^='prettyphoto']").prettyphoto({animation_speed:'normal',theme:'light_square',slideshow:7000, autoplay_slideshow: false});
+				$(".gallery:gt(0) a[rel^='prettyphoto']").prettyphoto({animation_speed:'fast',slideshow:10000, hideflash: true});
+		
+				$("#custom_content a[rel^='prettyphoto']:first").prettyphoto({
+					custom_markup: '<div id="map_canvas" style="width:260px; height:265px"></div>',
+					changepicturecallback: function(){ initialize(); }
+				});
+
+				$("#custom_content a[rel^='prettyphoto']:last").prettyphoto({
+					custom_markup: '<div id="bsap_1259344" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div><div id="bsap_1237859" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6" style="height:260px"></div><div id="bsap_1251710" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div>',
+					changepicturecallback: function(){ _bsap.exec(); }
+				});
+			});
+			</script>
+
+
 </body>
 </html>
