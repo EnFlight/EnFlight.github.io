@@ -26,6 +26,8 @@
 	<link rel="stylesheet" href="css/prettyphoto.css" type="text/css" media="screen" title="prettyphoto main stylesheet" charset="utf-8">
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" type="text/css" href="css/gallery_overlay.css">
+	<link rel="stylesheet" href="src/css/swipebox.css">
 
 <!-- Fonts -->
 
@@ -220,12 +222,15 @@
 			<ul>
 
 			<!-- All Featured section -->
-				<li class="gallery clearfix mix photoshoot check1 radio2 option3"><a href="images/fullscreen/4.jpg" rel="prettyphoto[gallery2]" ><img src="images/thumbnails/t_4.jpg"/></a></li>
 
-				<li class="gallery clearfix mix photoshoot check1 radio2 option3"><a href="img/shoots/tina1.jpg" rel="prettyphoto[gallery2]"><img src="img/shoots/tina1.jpg" alt="Image 1"></a></li>
+<!-- tina -->
+				<li class="box mix photoshoot check1 radio2 option3"><a href="img/shoots/tina1.jpg" rel="prettyphoto[gallery2]" class="swipebox"><img src="img/shoots/tina1.jpg" alt="Image 1"></a></li>
 
-				<li class="mix photoshoot check2 radio2 option2"><a href="pages/-----.html"><img src="img/shoots/rachel1.jpg" alt="Image 1"></a></li>
-				<li class="mix photoshoot check3 radio3 option1"><a href="pages/-----.html"><img src="img/shoots/adrianna1.jpg" alt="Image 1"></a></li>
+				<li class="box mix photoshoot check1 radio2 option3"><a href="img/shoots/tina1.jpg" rel="prettyphoto[gallery2]" class="swipebox"><img src="img/shoots/tina1.jpg" alt="Image 1"></a></li>
+<!-- purple 33 -->
+
+				<li class="box mix photoshoot"><a href="img/shoots/tina1.jpg"><img src="img/shoots/rachel1.jpg" alt="Image 1" class="swipebox"></a></li>
+				<li class="box mix photoshoot"><a href="img/shoots/tina1.jpg"><img src="img/shoots/adrianna1.jpg" alt="Image 1" class="swipebox"></a></li>
 
 			<!-- photoshoot section -->
 				<li class="mix photoshoot check3 radio2 option4"><a href="pages/-----.html"><img src="img/shoots/kevin1.jpg" alt="Image 1"></a></li>
@@ -323,27 +328,28 @@
 <script src="js/jquery-2.1.1.js"></script>
 <script src="js/jquery.mixitup.min.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+<script src="lib/ios-orientationchange-fix.js"></script>
+<script src="src/js/jquery.swipebox.js"></script>
+<!-- swipebox script -->
 
-<!-- fancybox script -->
-			<script type="text/javascript" charset="utf-8">
-			$(document).ready(function(){
-				$("area[rel^='prettyphoto']").prettyphoto();
-				
-				$(".gallery:first a[rel^='prettyphoto']").prettyphoto({animation_speed:'normal',theme:'light_square',slideshow:7000, autoplay_slideshow: false});
-				$(".gallery:gt(0) a[rel^='prettyphoto']").prettyphoto({animation_speed:'fast',slideshow:10000, hideflash: true});
-		
-				$("#custom_content a[rel^='prettyphoto']:first").prettyphoto({
-					custom_markup: '<div id="map_canvas" style="width:260px; height:265px"></div>',
-					changepicturecallback: function(){ initialize(); }
-				});
+	<script type="text/javascript">
+	$( document ).ready(function() {
 
-				$("#custom_content a[rel^='prettyphoto']:last").prettyphoto({
-					custom_markup: '<div id="bsap_1259344" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div><div id="bsap_1237859" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6" style="height:260px"></div><div id="bsap_1251710" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div>',
-					changepicturecallback: function(){ _bsap.exec(); }
-				});
-			});
-			</script>
+			/* Basic Gallery */
+			$( '.swipebox' ).swipebox();
+			
+			/* Dynamic Gallery */
+			$( '#gallery' ).click( function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href : 'http://swipebox.csag.co/mages/image-1.jpg', title : 'My Caption' },
+					{ href : 'http://swipebox.csag.co/images/image-2.jpg', title : 'My Second Caption' }
+				] );
+			} );
+
+      });
+	</script>
+
 
 
 </body>
