@@ -63,7 +63,7 @@
 <!--=================================Loader Section=================================-->
 
 
-<div id="loader-wrapper">
+<!-- <div id="loader-wrapper">
     <div id="loader"></div>
 
     <div class="loader-section section-full">
@@ -90,7 +90,7 @@
     </div>
 
 </div>
-
+ -->
 
 	<!--=================================Header Section=================================-->
 <header class="main_header active scroll">
@@ -151,31 +151,84 @@
 
 	<div class="overlay">
                
-        <div onClick="hideOverlay()"class="alert-close">Close</div>
+        <div onClick="hideOverlay()"class="alert-close">Close.&nbsp;</div>
 
 
 		<!-- use to link to php file form action="contact.php" -->
-        <form action="contact/contact.php" method="post" class="form">  
 
-            <div class="form-group">
-              <input name="name" type="text" class="form-control" value="" placeholder="Name" id="contact-name" />
-            </div>
-            <div class="form-group">
-              <input name="email" type="email" class="form-control" value="" placeholder="Email" id="contact-email" />
-            </div>
-            <div class="form-group">
-              <input name="ef_phone" type="number" class="form-control" value="" placeholder="Phone Number" id="contact-email" />
-            </div>
-                
-            <div class="form-group">
-              <textarea name="message" class="form-control" value="" placeholder="Message" id="contact-message" rows="1"></textarea>
-            </div>
 
-        <div onClick="formSubmit()">
-            <button id="contact-send" input type="submit" value="submit" class="btn btn-primary btn-lg btn-block">Send</button>
-			</div>
-			</form>
-			<section id="footer">
+
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe"
+style="display:none;" onload="if(submitted)
+{window.location='thank_you.html';}"></iframe>
+<form action="https://docs.google.com/forms/d/1VbGiSFzQCN7wV5Bb1Sn81JgQ39uJ8gkZ5EUuV-480Cs/formResponse" method="post"
+target="hidden_iframe" onsubmit="submitted=true;">
+
+<ol role="list" class="ss-question-list form" style="padding-left: 0">
+
+<div class="ss-form-question errorbox-good form-group" role="listitem">
+<div dir="auto" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_526585375"><div class="ss-q-title">Name
+<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+<span class="ss-required-asterisk" aria-hidden="true">*</span></div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+<input type="text" name="entry.526585375" value="" class="ss-q-short form-control" placeholder="Name" id="entry_526585375" dir="auto" aria-label="Name  " aria-required="true" required="" title="">
+<div class="error-message" id="1869976026_errorMessage"></div>
+</div></div></div> 
+
+<div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1115997846"><div class="ss-q-title">Email
+<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+<span class="ss-required-asterisk" aria-hidden="true">*</span></div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+<input type="email" name="entry.1115997846" value="" class="ss-q-short form-control" placeholder="Email"id="entry_1115997846" dir="auto" aria-label="Email  Must be a valid email address" aria-required="true" required="" title="Must be a valid email address">
+<div class="error-message" id="941592219_errorMessage">Must be a valid email address</div>
+</div></div></div> 
+
+<div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_2071808934"><div class="ss-q-title">Phone Number
+</div>
+
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+<input type="number" name="entry.2071808934" value="" class="ss-q-short form-control" placeholder="Phone" id="entry_2071808934" dir="auto" aria-label="Phone Number  Must be a number greater than 0" step="any" title="Must be a number greater than 0">
+<div class="error-message" id="290880735_errorMessage">Must be a number greater than 0</div>
+</div></div></div> 
+
+<div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item ss-item-required ss-paragraph-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_2002615530"><div class="ss-q-title">Message
+<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+<span class="ss-required-asterisk" aria-hidden="true">*</span></div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+<textarea name="entry.2002615530" rows="8" cols="0" class="ss-q-long form-control" placeholder="Message" id="entry_2002615530" dir="auto" aria-label="Message  " aria-required="true" required=""></textarea>
+<div class="error-message" id="1046829434_errorMessage"></div>
+</div></div></div>
+
+<input type="hidden" name="draftResponse" value="[,,&quot;-5394035190915531891&quot;]
+">
+<input type="hidden" name="pageHistory" value="0">
+
+<input type="hidden" name="fvv" value="0">
+
+
+<input type="hidden" name="fbzx" value="-5394035190915531891">
+
+<button id="contact-send" input type="submit" value="submit" class="btn btn-primary btn-lg btn-block">Send
+<div class="ss-item ss-navigate">
+<table id="navigation-table"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+</td>
+
+</tr></tbody>
+
+
+</table>
+
+
+
+</div></button>
 
 	<footer class="overlay_links_wrapper">
 
@@ -185,9 +238,19 @@
 		  <a href="https://www.twitter.com/EnFlight/" target="_blank" target="_blank"><img src="icons/png/white_twitter.png"></a>
 		</div>
 
-	</footer>
 
 </section>
+
+
+</form>
+
+</ol>
+
+
+
+
+
+
         </div>
 	</div>
 
