@@ -5,7 +5,7 @@
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\0000311}}
+@media prettyphoto0000311}}
 article,
 aside,
 details,
@@ -24,7 +24,7 @@ summary {
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\0000330}}
+
 audio,
 canvas,
 video {
@@ -35,7 +35,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\0000341}}
+
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -45,7 +45,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9.
  * Hide the `template` element in IE, Safari, and Firefox < 22.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\0000351}}
+
 [hidden],
 template {
   display: none;
@@ -59,7 +59,7 @@ template {
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\0000366}}
+
 html {
   font-family: sans-serif;
   /* 1 */
@@ -72,7 +72,7 @@ html {
 /**
  * Remove default margin.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\0000376}}
+
 body {
   margin: 0;
 }
@@ -83,7 +83,7 @@ body {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\0000388}}
+
 a {
   background: transparent;
 }
@@ -91,7 +91,7 @@ a {
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\0000396}}
+
 a:focus {
   outline: thin dotted;
 }
@@ -99,7 +99,7 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003104}}
+
 a:active,
 a:hover {
   outline: 0;
@@ -112,7 +112,7 @@ a:hover {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003118}}
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -121,7 +121,7 @@ h1 {
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003127}}
+
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -129,7 +129,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003135}}
+@media prettyphoto00003135}}
 b,
 strong {
   font-weight: bold;
@@ -138,7 +138,7 @@ strong {
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003144}}
+@media prettyphoto00003144}}
 dfn {
   font-style: italic;
 }
@@ -146,7 +146,7 @@ dfn {
 /**
  * Address differences between Firefox and other browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003152}}
+@media prettyphoto00003152}}
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -156,7 +156,7 @@ hr {
 /**
  * Address styling not present in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003162}}
+@media prettyphoto00003162}}
 mark {
   background: #ff0;
   color: #000;
@@ -165,7 +165,7 @@ mark {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003171}}
+@media prettyphoto00003171}}
 code,
 kbd,
 pre,
@@ -177,7 +177,7 @@ samp {
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003183}}
+@media prettyphoto00003183}}
 pre {
   white-space: pre-wrap;
 }
@@ -185,7 +185,7 @@ pre {
 /**
  * Set consistent quote types.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003191}}
+@media prettyphoto00003191}}
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
@@ -193,7 +193,7 @@ q {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003199}}
+@media prettyphoto00003199}}
 small {
   font-size: 80%;
 }
@@ -201,7 +201,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003207}}
+07}}
 sub,
 sup {
   font-size: 75%;
@@ -210,12 +210,12 @@ sup {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003215}}
+15}}
 sup {
   top: -0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003219}}
+19}}
 sub {
   bottom: -0.25em;
 }
@@ -226,7 +226,7 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003231}}
+31}}
 img {
   border: 0;
 }
@@ -234,7 +234,7 @@ img {
 /**
  * Correct overflow displayed oddly in IE 9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003239}}
+39}}
 svg:not(:root) {
   overflow: hidden;
 }
@@ -245,7 +245,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari 5.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003251}}
+51}}
 figure {
   margin: 0;
 }
@@ -256,7 +256,7 @@ figure {
 /**
  * Define consistent border, margin, and padding.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003263}}
+63}}
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -267,7 +267,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003274}}
+74}}
 legend {
   border: 0;
   /* 1 */
@@ -280,7 +280,7 @@ legend {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003285}}
+85}}
 button,
 input,
 select,
@@ -297,7 +297,7 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003299}}
+99}}
 button,
 input {
   line-height: normal;
@@ -309,7 +309,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003311}}
+@media prettyphoto00003311}}
 button,
 select {
   text-transform: none;
@@ -322,7 +322,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003324}}
+@media prettyphoto00003324}}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -336,7 +336,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003336}}
+@media prettyphoto00003336}}
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -346,7 +346,7 @@ html input[disabled] {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003346}}
+@media prettyphoto00003346}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -360,7 +360,7 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003358}}
+
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -374,7 +374,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003370}}
+@media prettyphoto00003370}}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -383,7 +383,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003379}}
+@media prettyphoto00003379}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -394,7 +394,7 @@ input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003390}}
+@media prettyphoto00003390}}
 textarea {
   overflow: auto;
   /* 1 */
@@ -408,20 +408,20 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_normalize\.scss}line{font-family:\00003403}}
+@media prettyphoto00003403}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\000031}}
+@media {font-family:\000031}}
 .wpb_row {
   -moz-transition: -moz-transform 500ms cubic-bezier(0.215, 0.610, 0.355, 1.000), opacity 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
   -o-transition: -o-transform 500ms cubic-bezier(0.215, 0.610, 0.355, 1.000), opacity 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
   -webkit-transition: -webkit-transform 500ms cubic-bezier(0.215, 0.610, 0.355, 1.000), opacity 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
   transition: transform 500ms cubic-bezier(0.215, 0.610, 0.355, 1.000), opacity 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\000037}}
+@media {font-family:\000037}}
 .wpb_row.hide {
   -moz-transform: translateY(50rem);
   -ms-transform: translateY(50rem);
@@ -434,42 +434,42 @@ table {
   -webkit-transition: 0ms;
   transition: 0ms;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000313}}
+@media {font-family:\0000313}}
 .wpb_row.valign_top .wpb_column {
   vertical-align: top;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000317}}
+@media {font-family:\0000317}}
 .wpb_row.valign_middle .wpb_column {
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000321}}
+@media {font-family:\0000321}}
 .wpb_row.valign_bottom .wpb_column {
   vertical-align: bottom;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000325}}
+@media {font-family:\0000325}}
 .wpb_row.disabled,
 .wpb_row .disabled {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000331}}
+@media {font-family:\0000331}}
 .wpb_row .image_wrapper.align_right {
   text-align: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000335}}
+@media {font-family:\0000335}}
 .wpb_row .image_wrapper.align_left {
   text-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000339}}
+@media {font-family:\0000339}}
 .wpb_row .image_wrapper.align_center {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000343}}
+@media {font-family:\0000343}}
 .wpb_row .image_wrapper img {
   display: inline-block;
   max-width: 100%;
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000350}}
+@media {font-family:\0000350}}
 .wpb_row .wpb_separator {
   display: block;
   margin: 0 auto;
@@ -477,7 +477,7 @@ table {
   min-height: 1px;
   background: #dadada;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000358}}
+@media {font-family:\0000358}}
 .wpb_row .wpb_column {
   display: inline-block;
   margin-right: -4px;
@@ -485,61 +485,61 @@ table {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000363}}
+@media {font-family:\0000363}}
 .wpb_row .wpb_column:last-child {
   margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000369}}
+@media {font-family:\0000369}}
 .wpb_row .wpb_column.vc_span1 {
   width: 8.33333%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000369}}
+@media {font-family:\0000369}}
 .wpb_row .wpb_column.vc_span2 {
   width: 16.66667%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000369}}
+@media {font-family:\0000369}}
 .wpb_row .wpb_column.vc_span3 {
   width: 25%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000369}}
+@media {font-family:\0000369}}
 .wpb_row .wpb_column.vc_span4 {
   width: 33.33333%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000369}}
+@media {font-family:\0000369}}
 .wpb_row .wpb_column.vc_span5 {
   width: 41.66667%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000369}}
+@media {font-family:\0000369}}
 .wpb_row .wpb_column.vc_span6 {
   width: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000369}}
+@media {font-family:\0000369}}
 .wpb_row .wpb_column.vc_span7 {
   width: 58.33333%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000369}}
+@media {font-family:\0000369}}
 .wpb_row .wpb_column.vc_span8 {
   width: 66.66667%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000369}}
+@media {font-family:\0000369}}
 .wpb_row .wpb_column.vc_span9 {
   width: 75%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000369}}
+@media {font-family:\0000369}}
 .wpb_row .wpb_column.vc_span10 {
   width: 83.33333%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000369}}
+@media {font-family:\0000369}}
 .wpb_row .wpb_column.vc_span11 {
   width: 91.66667%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_visual_composer\.scss}line{font-family:\0000369}}
+@media {font-family:\0000369}}
 .wpb_row .wpb_column.vc_span12 {
   width: 100%;
 }
 
 /* Magnific Popup CSS */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\0000376}}
+font-family:\0000376}}
 .mfp-bg {
   top: 0;
   left: 0;
@@ -553,7 +553,7 @@ table {
   filter: alpha(opacity=80);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\0000393}}
+font-family:\0000393}}
 .mfp-wrap {
   top: 0;
   left: 0;
@@ -565,7 +565,7 @@ table {
   -webkit-backface-visibility: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003105}}
+font-family:\00003105}}
 .mfp-container {
   text-align: center;
   position: absolute;
@@ -579,7 +579,7 @@ table {
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003120}}
+font-family:\00003120}}
 .mfp-container:before {
   content: '';
   display: inline-block;
@@ -587,12 +587,12 @@ table {
   vertical-align: middle;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003131}}
+font-family:\00003131}}
 .mfp-align-top .mfp-container:before {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003138}}
+font-family:\00003138}}
 .mfp-content {
   position: relative;
   display: inline-block;
@@ -602,26 +602,26 @@ table {
   z-index: 1045;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003148}}
+font-family:\00003148}}
 .mfp-inline-holder .mfp-content,
 .mfp-ajax-holder .mfp-content {
   width: 100%;
   cursor: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003155}}
+font-family:\00003155}}
 .mfp-ajax-cur {
   cursor: progress;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003159}}
+font-family:\00003159}}
 .mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
   cursor: -moz-zoom-out;
   cursor: -webkit-zoom-out;
   cursor: zoom-out;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003165}}
+font-family:\00003165}}
 .mfp-zoom {
   cursor: pointer;
   cursor: -webkit-zoom-in;
@@ -629,12 +629,12 @@ table {
   cursor: zoom-in;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003172}}
+font-family:\00003172}}
 .mfp-auto-cursor .mfp-content {
   cursor: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003177}}
+font-family:\00003177}}
 .mfp-close,
 .mfp-arrow,
 .mfp-preloader,
@@ -644,17 +644,17 @@ table {
   user-select: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003188}}
+font-family:\00003188}}
 .mfp-loading.mfp-figure {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003207}}
+font-family:\00003207}}
 .mfp-hide {
   display: none !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003218}}
+font-family:\00003218}}
 .mfp-preloader {
   color: #CCC;
   position: absolute;
@@ -666,26 +666,26 @@ table {
   right: 8px;
   z-index: 1044;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003228}}
+font-family:\00003228}}
 .mfp-preloader a {
   color: #CCC;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003230}}
+font-family:\00003230}}
 .mfp-preloader a:hover {
   color: #FFF;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003238}}
+font-family:\00003238}}
 .mfp-s-ready .mfp-preloader {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003245}}
+font-family:\00003245}}
 .mfp-s-error .mfp-content {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003252}}
+font-family:\00003252}}
 button.mfp-close, button.mfp-arrow {
   overflow: visible;
   cursor: pointer;
@@ -699,13 +699,13 @@ button.mfp-close, button.mfp-arrow {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003266}}
+font-family:\00003266}}
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003274}}
+font-family:\00003274}}
 .mfp-close {
   width: 44px;
   height: 44px;
@@ -723,22 +723,22 @@ button::-moz-focus-inner {
   font-size: 28px;
   font-family: Arial, Baskerville, monospace;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003295}}
+font-family:\00003295}}
 .mfp-close:hover, .mfp-close:focus {
   opacity: 1;
   filter: alpha(opacity=100);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003303}}
+font-family:\00003303}}
 .mfp-close:active {
   top: 1px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003308}}
+font-family:\00003308}}
 .mfp-close-btn-in .mfp-close {
   color: #333;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003314}}
+font-family:\00003314}}
 .mfp-image-holder .mfp-close,
 .mfp-iframe-holder .mfp-close {
   color: #FFF;
@@ -748,7 +748,7 @@ button::-moz-focus-inner {
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003324}}
+font-family:\00003324}}
 .mfp-counter {
   position: absolute;
   top: 0;
@@ -758,7 +758,7 @@ button::-moz-focus-inner {
   line-height: 18px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003335}}
+font-family:\00003335}}
 .mfp-arrow {
   position: absolute;
   opacity: 0.65;
@@ -771,16 +771,16 @@ button::-moz-focus-inner {
   height: 110px;
   -webkit-tap-highlight-color: transparent;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003348}}
+font-family:\00003348}}
 .mfp-arrow:active {
   margin-top: -54px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003351}}
+font-family:\00003351}}
 .mfp-arrow:hover, .mfp-arrow:focus {
   opacity: 1;
   filter: alpha(opacity=100);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003358}}
+font-family:\00003358}}
 .mfp-arrow:before, .mfp-arrow:after,
 .mfp-arrow .mfp-b,
 .mfp-arrow .mfp-a {
@@ -795,14 +795,14 @@ button::-moz-focus-inner {
   margin-left: 35px;
   border: medium inset transparent;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003374}}
+font-family:\00003374}}
 .mfp-arrow:after,
 .mfp-arrow .mfp-a {
   border-top-width: 13px;
   border-bottom-width: 13px;
   top: 8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003382}}
+font-family:\00003382}}
 .mfp-arrow:before,
 .mfp-arrow .mfp-b {
   border-top-width: 21px;
@@ -810,63 +810,63 @@ button::-moz-focus-inner {
   opacity: 0.7;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003391}}
+font-family:\00003391}}
 .mfp-arrow-left {
   left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003394}}
+font-family:\00003394}}
 .mfp-arrow-left:after,
 .mfp-arrow-left .mfp-a {
   border-right: 17px solid #FFF;
   margin-left: 31px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003399}}
+font-family:\00003399}}
 .mfp-arrow-left:before,
 .mfp-arrow-left .mfp-b {
   margin-left: 25px;
   border-right: 27px solid #3F3F3F;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003406}}
+font-family:\00003406}}
 .mfp-arrow-right {
   right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003408}}
+font-family:\00003408}}
 .mfp-arrow-right:after,
 .mfp-arrow-right .mfp-a {
   border-left: 17px solid #FFF;
   margin-left: 39px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003413}}
+font-family:\00003413}}
 .mfp-arrow-right:before,
 .mfp-arrow-right .mfp-b {
   border-left: 27px solid #3F3F3F;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003424}}
+font-family:\00003424}}
 .mfp-iframe-holder {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003427}}
+font-family:\00003427}}
 .mfp-iframe-holder .mfp-content {
   line-height: 0;
   width: 100%;
   max-width: 900px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003432}}
+font-family:\00003432}}
 .mfp-iframe-holder .mfp-close {
   top: -40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003436}}
+font-family:\00003436}}
 .mfp-iframe-scaler {
   width: 100%;
   height: 0;
   overflow: hidden;
   padding-top: 56.25%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003441}}
+font-family:\00003441}}
 .mfp-iframe-scaler iframe {
   position: absolute;
   display: block;
@@ -879,7 +879,7 @@ button::-moz-focus-inner {
 }
 
 /* Main image in popup */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003461}}
+font-family:\00003461}}
 img.mfp-img {
   width: auto;
   max-width: 100%;
@@ -894,11 +894,11 @@ img.mfp-img {
 }
 
 /* The shadow behind the image */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003476}}
+font-family:\00003476}}
 .mfp-figure {
   line-height: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003478}}
+font-family:\00003478}}
 .mfp-figure:after {
   content: '';
   position: absolute;
@@ -913,19 +913,19 @@ img.mfp-img {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
   background: #444;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003492}}
+font-family:\00003492}}
 .mfp-figure small {
   color: #BDBDBD;
   display: block;
   font-size: 12px;
   line-height: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003498}}
+font-family:\00003498}}
 .mfp-figure figure {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003502}}
+font-family:\00003502}}
 .mfp-bottom-bar {
   margin-top: -36px;
   position: absolute;
@@ -935,7 +935,7 @@ img.mfp-img {
   cursor: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003510}}
+font-family:\00003510}}
 .mfp-title {
   text-align: left;
   line-height: 18px;
@@ -944,12 +944,12 @@ img.mfp-img {
   padding-right: 36px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003519}}
+font-family:\00003519}}
 .mfp-image-holder .mfp-content {
   max-width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003526}}
+font-family:\00003526}}
 .mfp-gallery .mfp-image-holder .mfp-figure {
   cursor: pointer;
 }
@@ -958,26 +958,26 @@ img.mfp-img {
   /**
    * Remove all paddings around the image on small screen
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003539}}
+font-family:\00003539}}
   .mfp-img-mobile .mfp-image-holder {
     padding-left: 0;
     padding-right: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003544}}
+font-family:\00003544}}
   .mfp-img-mobile img.mfp-img {
     padding: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003550}}
+font-family:\00003550}}
   .mfp-img-mobile .mfp-figure:after {
     top: 0;
     bottom: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003554}}
+font-family:\00003554}}
   .mfp-img-mobile .mfp-figure small {
     display: inline;
     margin-left: 5px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003559}}
+font-family:\00003559}}
   .mfp-img-mobile .mfp-bottom-bar {
     background: rgba(0, 0, 0, 0.6);
     bottom: 0;
@@ -989,16 +989,16 @@ img.mfp-img {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003569}}
+font-family:\00003569}}
   .mfp-img-mobile .mfp-bottom-bar:empty {
     padding: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003573}}
+font-family:\00003573}}
   .mfp-img-mobile .mfp-counter {
     right: 5px;
     top: 3px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003577}}
+font-family:\00003577}}
   .mfp-img-mobile .mfp-close {
     top: 0;
     right: 0;
@@ -1012,35 +1012,35 @@ img.mfp-img {
   }
 }
 @media all and (max-width: 900px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003597}}
+font-family:\00003597}}
   .mfp-arrow {
     -webkit-transform: scale(0.75);
     transform: scale(0.75);
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003601}}
+font-family:\00003601}}
   .mfp-arrow-left {
     -webkit-transform-origin: 0;
     transform-origin: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003605}}
+font-family:\00003605}}
   .mfp-arrow-right {
     -webkit-transform-origin: 100%;
     transform-origin: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003609}}
+font-family:\00003609}}
   .mfp-container {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003621}}
+font-family:\00003621}}
 .mfp-ie7 .mfp-img {
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003624}}
+font-family:\00003624}}
 .mfp-ie7 .mfp-bottom-bar {
   width: 600px;
   left: 50%;
@@ -1048,15 +1048,15 @@ img.mfp-img {
   margin-top: 5px;
   padding-bottom: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003631}}
+font-family:\00003631}}
 .mfp-ie7 .mfp-container {
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003634}}
+font-family:\00003634}}
 .mfp-ie7 .mfp-content {
   padding-top: 44px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/vendor\/_magnific_popup\.scss}line{font-family:\00003637}}
+font-family:\00003637}}
 .mfp-ie7 .mfp-close {
   top: 0;
   right: 0;
@@ -1359,12 +1359,12 @@ font-family: 'Poiret One', cursive;;
   -webkit-transform: translateZ(0px);
   transform: translateZ(0px);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/home\/_grid\.scss}line{font-family:\0000323}}
+
 .grid_wrapper .item_wrapper:hover .item_cover {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/home\/_grid\.scss}line{font-family:\0000327}}
+
 .grid_wrapper .item_wrapper.item_nr1 {
   top: 0;
   left: 195.8rem;
@@ -1413,7 +1413,7 @@ font-family: 'Poiret One', cursive;;
   width: 162.6rem;
   height: 91.6rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/home\/_grid\.scss}line{font-family:\0000362}}
+
 .grid_wrapper .item_wrapper .item_cover {
   position: relative;
   background: #fff;
@@ -1429,7 +1429,7 @@ font-family: 'Poiret One', cursive;;
   transition: ease-in-out 500ms;
   background-size: cover !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/home\/_grid\.scss}line{font-family:\0000373}}
+
 .grid_wrapper .item_wrapper .item_cover .title {
   position: absolute;
   top: 50%;
@@ -1449,17 +1449,16 @@ font-family: 'Poiret One', cursive;;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/home\/_grid\.scss}line{font-family:\0000389}}
+
 .grid_wrapper .item_wrapper .item_cover .view_mobile {
   display: none;
 }
 @media all and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/home\/_grid\.scss}line{font-family:\0000395}}
   .grid_wrapper .item_wrapper.static {
     display: none !important;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/home\/_grid\.scss}line{font-family:\00003101}}
+
 .grid_wrapper .letters {
   position: absolute;
   top: 30.5rem;
@@ -2294,17 +2293,16 @@ font-family: 'Poiret One', cursive;;
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/sidebar\/_contacts\.scss}line{font-family:\0000318}}
+
 .sidebar_wrapper .contacts_wrapper a:hover {
   text-decoration: underline;
 }
 
 @media all and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/sidebar\/_container\.scss}line{font-family:\0000374}}
   .sidebar_wrapper {
     font-size: 1.5rem;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/sidebar\/_container\.scss}line{font-family:\0000377}}
+
   .sidebar_wrapper.active {
     width: 100%;
     overflow-y: auto;
@@ -2312,7 +2310,7 @@ font-family: 'Poiret One', cursive;;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_social_links\.scss}line{font-family:\000031}}
+
 .social_links_wrapper {
   position: relative;
   width: 100%;
@@ -2326,11 +2324,11 @@ font-family: 'Poiret One', cursive;;
     text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_social_links\.scss}line{font-family:\000037}}
+
 .page_wrapper .social_links_wrapper {
   background: #FFF;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_social_links\.scss}line{font-family:\0000311}}
+
 .social_links_wrapper .social_links {
   display: inline-block;
   vertical-align: middle;
@@ -2341,12 +2339,12 @@ font-family: 'Poiret One', cursive;;
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_social_links\.scss}line{font-family:\0000316}}
+
 .social_links_wrapper .social_links a {
   color: #000;
   text-decoration: none !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_social_links\.scss}line{font-family:\0000321}}
+
 .social_links_wrapper .social_links .menu-item {
   display: inline-block;
   vertical-align: middle;
@@ -2363,22 +2361,21 @@ font-family: 'Poiret One', cursive;;
   text-transform: uppercase;
   border-bottom: 1px solid transparent;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_social_links\.scss}line{font-family:\0000335}}
+
 .social_links_wrapper .social_links .menu-item:hover {
   border-color: #000;
 }
 @media all and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_social_links\.scss}line{font-family:\000031}}
   .social_links_wrapper {
     padding-bottom: 15.5rem;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_social_links\.scss}line{font-family:\0000344}}
+
   .social_links_wrapper .social_links .menu-item {
     margin-bottom: 5rem;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_cover\.scss}line{font-family:\000031}}
+
 .cover {
   position: fixed;
   top: 0;
@@ -2396,7 +2393,7 @@ font-family: 'Poiret One', cursive;;
   -webkit-transition: opacity 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000), background 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000), z-index 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
   transition: opacity 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000), background 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000), z-index 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_cover\.scss}line{font-family:\0000316}}
+
 .cover .loading_bar {
   position: absolute;
   top: 0;
@@ -2409,7 +2406,7 @@ font-family: 'Poiret One', cursive;;
   -webkit-transition: 1000ms;
   transition: 1000ms;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_cover\.scss}line{font-family:\0000324}}
+
 .cover .logo {
   position: absolute;
   top: 50%;
@@ -2427,7 +2424,7 @@ font-family: 'Poiret One', cursive;;
   -webkit-transition: opacity 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
   transition: opacity 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_cover\.scss}line{font-family:\0000333}}
+
 .cover.active {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
@@ -2436,16 +2433,16 @@ font-family: 'Poiret One', cursive;;
   -webkit-transition: opacity 500ms ease-in-out, background 500ms ease-in-out, z-index 500ms ease-in-out;
   transition: opacity 500ms ease-in-out, background 500ms ease-in-out, z-index 500ms ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_cover\.scss}line{font-family:\0000341}}
+
 .cover.active.sidebar {
   background: #000;
   background: rgba(0, 0, 0, 0.4);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_cover\.scss}line{font-family:\0000345}}
+
 .cover.active.sidebar:hover {
   cursor: url(../img/close.png), pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_cover\.scss}line{font-family:\0000350}}
+
 .cover.active.loading {
   z-index: 6;
   background: #FFF;
@@ -2455,7 +2452,7 @@ font-family: 'Poiret One', cursive;;
   -webkit-transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1.000), background 300ms cubic-bezier(0.645, 0.045, 0.355, 1.000), z-index 300ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
   transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1.000), background 300ms cubic-bezier(0.645, 0.045, 0.355, 1.000), z-index 300ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_cover\.scss}line{font-family:\0000360}}
+
 .cover.active.loading .logo {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
@@ -2465,23 +2462,23 @@ font-family: 'Poiret One', cursive;;
   transition: opacity 500ms ease-in-out;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\000032}}
+
 .content > p:first-child + .wpb_row.snap.bright_bg > .more {
   color: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\000036}}
+
 .content > p:first-child + .wpb_row.snap > .more {
   color: #FFF;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\0000311}}
+
 .wpb_row.snap {
   position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\0000317}}
+
 .wpb_row.snap.active .wpb_text_column {
   opacity: 1;
   -moz-transform: translateY(0);
@@ -2494,21 +2491,21 @@ font-family: 'Poiret One', cursive;;
   -webkit-transition-delay: 100ms;
   transition: ease-in-out 500ms 100ms;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\0000322}}
+
 .wpb_row.snap.active .wpb_text_column:nth-child(2) {
   -moz-transition-delay: 200ms;
   -o-transition-delay: 200ms;
   -webkit-transition-delay: 200ms;
   transition-delay: 200ms;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\0000326}}
+
 .wpb_row.snap.active .wpb_text_column:nth-child(3) {
   -moz-transition-delay: 300ms;
   -o-transition-delay: 300ms;
   -webkit-transition-delay: 300ms;
   transition-delay: 300ms;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\0000331}}
+
 .wpb_row.snap .wpb_text_column {
   opacity: 0;
   -moz-transform: translateY(50rem);
@@ -2522,7 +2519,6 @@ font-family: 'Poiret One', cursive;;
   transition: ease-in-out 500ms 500ms;
 }
 @media all and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\0000331}}
   .wpb_row.snap .wpb_text_column {
     opacity: 1 !important;
     -moz-transform: translateY(0rem) !important;
@@ -2530,28 +2526,28 @@ font-family: 'Poiret One', cursive;;
     -webkit-transform: translateY(0rem) !important;
     transform: translateY(0rem) !important;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\0000343}}
+
   .wpb_row.snap .wpb_text_column br {
     display: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\0000351}}
+
 .wpb_row.snap.black_bg {
   background: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\0000355}}
+
 .wpb_row.snap:first-child > .more {
   color: #FFF;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\0000359}}
+
 .wpb_row.snap.bright_bg:first-child > .more {
   color: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\0000363}}
+
 .wpb_row.snap.bright_bg > .more:after {
   border-top-color: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\0000367}}
+
 .wpb_row.snap > .more {
   position: absolute;
   bottom: 17.877rem;
@@ -2574,11 +2570,11 @@ font-family: 'Poiret One', cursive;;
   -webkit-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\0000383}}
+
 .wpb_row.snap > .more:focus {
   outline: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\0000387}}
+
 .wpb_row.snap > .more:after {
   content: "";
   position: absolute;
@@ -2590,7 +2586,7 @@ font-family: 'Poiret One', cursive;;
   border-bottom: 3.03rem solid transparent;
   margin-left: -1.818rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\00003101}}
+
 .wpb_row.snap .image_wrapper,
 .wpb_row.snap .parallax {
   position: absolute;
@@ -2602,7 +2598,7 @@ font-family: 'Poiret One', cursive;;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\00003110}}
+
 .wpb_row.snap .image_wrapper > span,
 .wpb_row.snap .image_wrapper > span > img,
 .wpb_row.snap .parallax > span,
@@ -2611,14 +2607,14 @@ font-family: 'Poiret One', cursive;;
   height: 100%;
   visibility: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\00003118}}
+
 .wpb_row.snap .parallax {
   position: relative;
   height: 100vh !important;
   background-attachment: fixed;
   background-position: 50% 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\00003125}}
+
 .wpb_row.snap .wpb_row {
   position: absolute;
   top: 50%;
@@ -2634,13 +2630,12 @@ font-family: 'Poiret One', cursive;;
   *display: inline;
 }
 @media all and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\00003125}}
   .wpb_row.snap .wpb_row {
     display: block;
     width: 80%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\00003136}}
+
 .wpb_row.snap .wpb_row .wpb_text_column > .wpb_wrapper {
   text-align: center;
   font-family: 'Poiret One', cursive;
@@ -2649,7 +2644,7 @@ font-family: 'Poiret One', cursive;;
   line-height: 1.2;
   color: #333333;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\00003144}}
+
 .wpb_row.snap .wpb_row .wpb_text_column > .wpb_wrapper strong {
   font-family: 'Poiret One', cursive;
   font-size: 3.636rem;
@@ -2661,13 +2656,13 @@ font-family: 'Poiret One', cursive;;
   text-shadow: 0 0 0px #000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\00003158}}
+
 .page_header_new {
   position: relative;
   width: 100%;
   height: 100vh;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\00003162}}
+
 .page_header_new > .background {
   position: absolute;
   top: 0;
@@ -2679,14 +2674,14 @@ font-family: 'Poiret One', cursive;;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\00003171}}
+
 .page_header_new > .background > span,
 .page_header_new > .background > span > img {
   display: block;
   height: 100%;
   visibility: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\00003179}}
+
 .page_header_new .text_block {
   position: absolute;
   top: 50%;
@@ -2696,7 +2691,7 @@ font-family: 'Poiret One', cursive;;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\00003184}}
+
 .page_header_new .text_block,
 .page_header_new .text_block > .inner_wrap,
 .page_header_new .text_block .desc_wrapper {
@@ -2706,7 +2701,7 @@ font-family: 'Poiret One', cursive;;
   *zoom: 1;
   *display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\00003190}}
+
 .page_header_new .text_block .desc_wrapper {
   text-align: center;
   font-weight: 100;
@@ -2718,24 +2713,24 @@ font-family: 'Poiret One', cursive;;
   color: #FFF;
 }
 @media all and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/views\/_snap\.scss}line{font-family:\00003190}}
+
   .page_header_new .text_block .desc_wrapper {
     font-size: 7rem;
     width: 100vw;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/style\.scss}line{font-family:\0000332}}
+
 .special_pollen_text .wpb_text_column:nth-child(1) * {
   font-size: 3.636rem !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/style\.scss}line{font-family:\0000336}}
+
 .special_pollen_text .wpb_text_column:nth-child(2) * {
 font-family: 'Poiret One', cursive; !important;
   font-size: 7.272rem !important;
   line-height: 1.2 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/style\.scss}line{font-family:\0000342}}
+
 .special_pollen_text .wpb_text_column:nth-child(3) * {
 font-family: 'Poiret One', cursive; !important;
   font-size: 4.848rem !important;
