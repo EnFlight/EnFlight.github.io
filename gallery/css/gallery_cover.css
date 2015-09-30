@@ -1,16 +1,17 @@
 .box img:hover {
     opacity: .5;
     transition: all .5s;
+    text-shadow: 1px 1px rgba( 0, 0, 0, 0.9);
 }
 
-.item_cover {
+.box img {
     position: relative;
     background: #fff;
     background: rgba(255, 255, 255, 0.95);
     width: 100%;
     height: 100%;
     /* margin-left: -0.5%; */
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=1);
     opacity: 0;
     -moz-transition: ease-in-out 500ms;
     -o-transition: ease-in-out 500ms;
@@ -19,60 +20,7 @@
     background-size: cover !important;
 }
 
-.box img .item_cover:hover {
-    position: relative;
-    background: #fff;
-    background: rgba(255, 255, 255, 0.95);
-    width: 100%;
-    height: 100%;
-    margin-left: -0.5%;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+.box img {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=1);
     opacity: 1;
-    -moz-transition: ease-in-out 500ms;
-    -o-transition: ease-in-out 500ms;
-    -webkit-transition: ease-in-out 500ms;
-    transition: ease-in-out 500ms;
-    background-size: cover !important;
-}
-
-.item_cover .title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 90%;
-    margin: 0;
-    text-align: center;
-    font-family: 'Poiret One', cursive;
-    font-size: 3.937rem;
-    line-height: 10;
-    font-weight: 400;
-    /* letter-spacing: 0.166rem; */
-    color: #000;
-    text-shadow: 1px 1px rgba( 0, 0, 0, 0.9);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-h3 {
-    font-family: sans-serif;
-    font-weight: 600;
-    font-size: 7em;
-    line-height: 1;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 0.2em;
-    border: 1px solid #222;
-}
-
-h3 {
-    display: block;
-    font-size: 1.17em;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    font-weight: bold;
 }
