@@ -71,6 +71,13 @@
     z-index: 100;
 }
 
+@media all and (max-width: 420px) {
+.nav-dots { 
+	width: 120px;
+	bottom: 5%;
+	}
+}
+
 .nav-dots span {
     display: inline-block;
     position: relative;
@@ -526,6 +533,7 @@
 		font-size: 120px;
 		left: -45px;
 	}
+
 /*
 	.demo-2 .sl-slider-wrapper {
 		height: 500px;

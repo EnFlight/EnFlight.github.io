@@ -82,7 +82,7 @@
 .menu-icon {
     position: fixed;
     left: 20px;
-    padding-top: 3%;
+    padding-top: 0px;
     z-index: 103;
 }
 

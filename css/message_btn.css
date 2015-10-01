@@ -8,6 +8,12 @@
     transition: .6s;
 }
 
+@media (max-width: 480px) {
+#message_btn {
+    right: 20px;
+  }  
+}
+
 #message_btn img{
     width: 74%;
     height: auto;
@@ -107,6 +113,22 @@ box-shadow:         0px 0px 30px 0px rgba(280, 280, 280, 0.67);
   -webkit-appearance: none;
 }
 
+.form-control-gallery {
+  transition: opacity .6s;
+  opacity: 1;
+  border: 0;
+  border-bottom: 2px solid #bdc3c7;
+  border-radius: 3px;
+  background-color: rgba(45,45,45,0.5);
+  font-size: 20px;
+  line-height: 1.467;
+  font-family: 'Poiret One', cursive;
+  padding: 4px;
+  height: 42px;
+  -webkit-appearance: none;
+}
+
+
 input, textarea {
   transition: all 800ms;
   font-family: "Roboto";
@@ -155,11 +177,20 @@ textarea.form-control {
   transition: .6s;
 }
 
+textarea.form-control-gallery {
+  height: 120px;
+  transition: .6s;
+}
+
 textarea.form-control:focus {
   height: 200px;
   border-color: #fff;
 }
 
+textarea.form-control-gallery:focus {
+  height: 200px;
+  border-color: #fff;
+}
 @media (max-width: 600px) {
   .form {
     width: 90%;
