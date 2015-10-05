@@ -1,11 +1,6 @@
-	<script src="./Pollen_files/hhy7tzm.js" type="text/javascript" async=""></script><script>
-		window.pollenGlobals = {
-			rootUrl: 'http://pollenlondon.com',
-			templateUrl: 'http://pollenlondon.com/wp-content/themes/pollen',
-			ajaxUrl: 'http://pollenlondon.com/wp-admin/admin-ajax.php',
-			nonceID: 'ffba6de811',
-			tumblrUrl: 'vastmix.com',
-			tumblrApiKey: 'yLQQuAkOva5S1LKFuMLPPhrsqsFGnVNkV62MLDSLqvKgto9vNa'
+
+		window.enflightdesign = {
+			ajaxUrl: 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js',
 		};
 
 
