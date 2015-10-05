@@ -62,20 +62,12 @@
 /* Custom navigation dots */
 
 .nav-dots {
-    text-align: right;
+    text-align: center;
     position: fixed;
     bottom: 3%;
     height: 16px;
-    width: 190px;
-    right: 40px;
+    width: 100%;
     z-index: 100;
-}
-
-@media all and (max-width: 420px) {
-.nav-dots { 
-	width: 120px;
-	bottom: 5%;
-	}
 }
 
 .nav-dots span {
@@ -169,6 +161,7 @@
 	line-height: 50px;
 	bottom: 50%;
 	margin: 0 0 -120px 0;
+	text-shadow:0 0 0 #000, 0 0 1px transparent;
 }
 
 .demo-1 .sl-slide blockquote {
@@ -351,6 +344,33 @@
 .demo-1 .bg-img-10 {
 	background-image: url(../home_images/8.jpg);
 }
+
+@media all and (max-width: 700px) {
+  .demo-1 .bg-img-1 {
+  	background-position: 68% 50%;
+  }
+  .demo-1 .bg-img-2 {
+  	background-position: 70% 50%;
+  }
+  .demo-1 .bg-img-4 {
+  	background-position: 70% 50%;
+  }
+  .demo-1 .bg-img-5 {
+  	background-position: 90% 50%;
+  }
+  .demo-1 .bg-img-6 {
+  	background-position: 30% 50%;
+  }
+  .demo-1 .bg-img-7 {
+  	background-position: 70% 50%;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .demo-1 .bg-img-5 {
+  	background-position: 85% 50%;
+  }
+ }
 /* Animations for content elements */
 
 .sl-trans-elems .deco{
