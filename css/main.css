@@ -1410,7 +1410,7 @@ font-family: 'Poiret One', cursive;;
   text-align: center;
   font-family: 'Poiret One', cursive;;
   font-size: 4.5rem;
-  line-height: 6.5;
+  line-height: 5.5;
   font-weight: 400;
 /*  letter-spacing: 0.166rem;*/
   color: #000;
@@ -1490,7 +1490,7 @@ font-family: 'Poiret One', cursive;;
     display: block;
     color: #000;
     font-family: brandon-grotesque, Arial, Helvetica, sans-serif;
-    font-size: 4rem;
+    font-size: 7rem;
     text-align: center;
     text-transform: uppercase;
     position: absolute;
