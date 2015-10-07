@@ -4638,36 +4638,36 @@ html.client_side, html body {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/style\.scss}line{font-family:\0000335}}
-.special_pollen_text .wpb_text_column:nth-child(1) * {
+ .wpb_text_column:nth-child(1) * {
   font-size: 3.636rem !important;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/style\.scss}line{font-family:\0000339}}
-.special_pollen_text .wpb_text_column:nth-child(2) * {
+ .wpb_text_column:nth-child(2) * {
   font-family: freight-display-pro, Georgia, serif !important;
   font-size: 13.635rem !important;
   line-height: 1.2 !important;
 }
 @media all and (max-width: 767px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/style\.scss}line{font-family:\0000339}}
-  .special_pollen_text .wpb_text_column:nth-child(2) * {
+   .wpb_text_column:nth-child(2) * {
     font-size: 7.272rem !important;
   }
 }
 @media all and (max-width: 767px) and (orientation: landscape) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/style\.scss}line{font-family:\0000339}}
-  .special_pollen_text .wpb_text_column:nth-child(2) * {
+   .wpb_text_column:nth-child(2) * {
     font-size: 5.3rem !important;
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/style\.scss}line{font-family:\0000354}}
-.special_pollen_text .wpb_text_column:nth-child(3) * {
+ .wpb_text_column:nth-child(3) * {
   font-family: freight-display-pro, Georgia, serif !important;
   font-size: 4.848rem !important;
   line-height: 1.2 !important;
 }
 @media all and (max-width: 767px) and (orientation: landscape) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/pollenlondon\.dev\/wp-content\/themes\/pollen\/css\/sass\/style\.scss}line{font-family:\0000354}}
-  .special_pollen_text .wpb_text_column:nth-child(3) * {
+   .wpb_text_column:nth-child(3) * {
     font-size: 3.85rem !important;
   }
 }
