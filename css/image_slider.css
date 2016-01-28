@@ -157,7 +157,7 @@
 	width: 80%;
 	left: 10%;
 	text-align: center;
-	line-height: 50px;
+	line-height: 60px;
 	bottom: 50%;
 	margin: 0 0 -120px 0;
 	text-shadow: 0 0 0 #000, 0 0 7px;
@@ -171,7 +171,7 @@
 	left: 0;
 	font-weight: bold;
 	font-size: 25px;
-	line-height: 9px;
+	line-height: 30px;
 	height: 70px;
 	color: #fff;
 	z-index: 2;
@@ -314,19 +314,19 @@
 
 
 .demo-1 .bg-img-1 {
-	background-image: url(../home_images/1.jpg);
+	background-image: url(../home_images/18.jpg);
 }
 .demo-1 .bg-img-2 {
-	background-image: url(../home_images/15.jpg);
+	background-image: url(../home_images/19.jpg);
 }
 .demo-1 .bg-img-3 {
-	background-image: url(../home_images/3.jpg);
+	background-image: url(../home_images/15.jpg);
 }
 .demo-1 .bg-img-4 {
-	background-image: url(../home_images/4.jpg);
+	background-image: url(../home_images/20.jpg);
 }
 .demo-1 .bg-img-5 {
-	background-image: url(../home_images/8.jpg);
+	background-image: url(../home_images/sarah2.jpg);
 }
 .demo-1 .bg-img-6 {
 	background-image: url(../home_images/5.jpg);

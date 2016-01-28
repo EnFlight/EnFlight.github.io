@@ -45,6 +45,7 @@ box-shadow:         0px 0px 30px 0px rgba(280, 280, 280, 0.67);
     font-size: 35px;
     font-family: 'Poiret One', cursive;
     color: white;
+    z-index: 105;
 }
 
 .alert-close:hover {
